@@ -1,9 +1,0 @@
-order: 21
-name: Desenvolvimento Web I
-link: web1
-content:
-  - title: Apresentação da Disciplina
-    link: web1-01.pdf
-
-  - title: HTML
-    link: web1-02.pdf
