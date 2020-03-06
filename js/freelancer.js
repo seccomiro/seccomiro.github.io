@@ -35,6 +35,16 @@
     target: '#mainNav',
     offset: 80
   });
+    console.log('teste');
+
+  var listItems = $('.portfolio-modal .teaching-content-list a');
+  listItems.mouseover(function() {
+    $(this).find('.badge').show();
+  });
+  listItems.mouseout(function() {
+    $(this).find('.badge').hide();
+  });
+
 
   // Collapse Navbar
   var navbarCollapse = function() {
