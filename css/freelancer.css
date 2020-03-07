@@ -9788,6 +9788,10 @@ a.text-dark:hover, a.text-dark:focus {
   opacity: 1;
 }
 
+.portfolio-modal .teaching-content-list {
+  font-size: 120%;
+}
+
 .portfolio-modal .teaching-content-list .badge {
   display: none;
 }
