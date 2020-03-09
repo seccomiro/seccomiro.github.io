@@ -9765,6 +9765,43 @@ a.text-dark:hover, a.text-dark:focus {
   margin-top: 1.5rem;
 }
 
+.portfolio .portfolio-item .portfolio-item-caption {
+  z-index: 10;
+}
+
+.portfolio .portfolio-item .languages {
+  position: absolute;
+  display: flex;
+  flex-direction: column-reverse;
+  bottom: 0;
+  right: 0;
+  padding: 8px;
+}
+
+.portfolio .portfolio-item .languages .language-item {
+  height: 35px;
+  width: 35px;
+  background-color: #fff;
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  padding: 5px;
+  margin: 2px;
+}
+
+.portfolio .portfolio-item .languages .language-rails {
+  background-image: url("/img/portfolio/languages/rails.png");
+}
+
+.portfolio .portfolio-item .languages .language-ios {
+  background-image: url("/img/portfolio/languages/ios.png");
+}
+
+.portfolio .portfolio-item .languages .language-android {
+  background-image: url("/img/portfolio/languages/android.png");
+}
+
 .portfolio-modal .portfolio-modal-title {
   font-size: 2.25rem;
   line-height: 2rem;
