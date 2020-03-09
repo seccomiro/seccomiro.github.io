@@ -9802,6 +9802,18 @@ a.text-dark:hover, a.text-dark:focus {
   background-image: url("/img/portfolio/languages/android.png");
 }
 
+.portfolio .portfolio-item .languages .language-node {
+  background-image: url("/img/portfolio/languages/node.png");
+}
+
+.portfolio .portfolio-item .languages .language-npm {
+  background-image: url("/img/portfolio/languages/npm.png");
+}
+
+.portfolio .portfolio-item .languages .language-adonis {
+  background-image: url("/img/portfolio/languages/adonis.png");
+}
+
 .portfolio-modal .portfolio-modal-title {
   font-size: 2.25rem;
   line-height: 2rem;
