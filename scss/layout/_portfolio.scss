@@ -15,13 +15,58 @@
       left: 0;
       transition: $transition-base;
       opacity: 0;
-      background-color: fade-out($primary, .1);
+      background-color: fade-out($primary, 0.1);
       &:hover {
         opacity: 1;
       }
       .portfolio-item-caption-content {
         font-size: 1.5rem;
         margin-top: 1.5rem;
+      }
+    }
+    .img-fluid {
+      // z-index: 0;
+    }
+    .portfolio-item-caption {
+      z-index: 10;
+    }
+    .languages {
+      position: absolute;
+      // z-index: 1;
+      display: flex;
+      flex-direction: column-reverse;
+      bottom: 0;
+      // top: 0;
+      right: 0;
+      padding: 8px;
+      .language-item {
+        height: 35px;
+        width: 35px;
+        background-color: #fff;
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 50%;
+        padding: 5px;
+        margin: 2px;
+      }
+      .language-rails {
+        background-image: url('/img/portfolio/languages/rails.png');
+      }
+      .language-ios {
+        background-image: url('/img/portfolio/languages/ios.png');
+      }
+      .language-android {
+        background-image: url('/img/portfolio/languages/android.png');
+      }
+      .language-node {
+        background-image: url('/img/portfolio/languages/node.png');
+      }
+      .language-npm {
+        background-image: url('/img/portfolio/languages/npm.png');
+      }
+      .language-adonis {
+        background-image: url('/img/portfolio/languages/adonis.png');
       }
     }
   }
