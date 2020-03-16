@@ -1,6 +1,6 @@
 // Styling for the portfolio grid section
 .portfolio {
-  margin-bottom: -30px;
+  // margin-bottom: -30px;
   .portfolio-item {
     cursor: pointer;
     position: relative;
@@ -23,9 +23,6 @@
         font-size: 1.5rem;
         margin-top: 1.5rem;
       }
-    }
-    .img-fluid {
-      // z-index: 0;
     }
     .portfolio-item-caption {
       z-index: 10;

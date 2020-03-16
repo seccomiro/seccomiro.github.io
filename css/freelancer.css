@@ -9733,10 +9733,6 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
-.portfolio {
-  margin-bottom: -30px;
-}
-
 .portfolio .portfolio-item {
   cursor: pointer;
   position: relative;
